@@ -9,6 +9,15 @@
 //	TODO add necessary includes here
 //============================================================================
 
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <time.h>
+#include "constants.h"
+#include "utilities.h"
+#include "array_functions.h"
+
 //============================================================================
 //	stuff you will need
 //============================================================================
@@ -21,3 +30,45 @@
 //TODO define all functions in header file
 
 //TODO look in utilities.h for useful functions, particularly strip_unwanted_chars!
+
+void clearArray() {
+
+}
+
+int getArraySize(){
+	return 0;
+}
+
+int getArrayWord_NumbOccur_At(int i) {
+	return 0;
+}
+
+bool processFile(std::fstream &myfstream) {
+	return true;
+}
+
+void processLine(std::string &myString) {
+
+}
+
+void processToken(std::string &token) {
+
+}
+
+bool openFile(std::fstream& myfile, const std::string& myFileName,
+		std::ios_base::openmode mode) {
+	return true;
+}
+
+void closeFile(std::fstream& myfile) {
+
+}
+
+int writeArraytoFile(const std::string &outputfilename) {
+	return 0;
+}
+
+void sortArray(constants::sortOrder so) {
+
+}
+
