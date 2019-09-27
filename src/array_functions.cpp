@@ -18,6 +18,9 @@
 #include "utilities.h"
 #include "array_functions.h"
 
+using namespace std;
+using namespace constants;
+
 //============================================================================
 //	stuff you will need
 //============================================================================
@@ -31,12 +34,22 @@
 
 //TODO look in utilities.h for useful functions, particularly strip_unwanted_chars!
 
+struct entry
+{
+	string word;
+	int number_occurences;
+};
+
 void clearArray() {
 
 }
 
 int getArraySize(){
 	return 0;
+}
+
+std::string getArrayWordAt(int i) {
+	return "a";
 }
 
 int getArrayWord_NumbOccur_At(int i) {
